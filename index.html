@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tea Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./images/logo.svg" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse menu_block" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Black</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Green</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">White</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Oolong</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pu-erh</a>
+            </li>
+          </ul>
+
+          <div class="user__action d-flex">
+            <a class="navbar-brand" href="#">
+              <img src="./images/cart.svg" alt="cart">
+            </a>
+            <a class="navbar-brand" href="#">
+              <img src="./images/login_user.svg" alt="login user">
+            </a>
+            <form class="user__action_form" role="search">
+              <button class="btn" type="submit">
+                <img src="./images/search.svg" alt="search">
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero container-fluid">
+    <div class="hero__inner container-sm d-flex">
+      <h1 class="hero__title">
+        A cup of tea is a moment of calm in the chaos of life
+      </h1>
+      <p class="hero__text">
+        Wide selection of high-quality teas from all over the world, carefully curated by tea experts.
+      </p>
+    </div>
+  </section>
+
+  <section class="blockquote container-sm d-flex justify-content-center">
+    <blockquote class="blockquote_block center-block text-center"> 
+      <p class="blockquote_text"> 
+        "Tea is not just a drink, it's a way of life and a way to connect with our loved ones."
+      </p> 
+    </blockquote> 
+  </section>
+
+  <section class="collection container-sm d-flex flex-column">
+    <h2 class="collection__title text-center">Explore our Collections</h2>
+    <div class="collection__block d-flex flex-wrap">
+      <div class="d-flex flex-column">
+        <img class="card-img-top text-center" src="./images/black_tea.jpg" alt="Card image cap">
+        <h5 class="card-title text-center">Black</h5>
+      </div>
+    
+      <div class="d-flex flex-column">
+        <img class="card-img-top text-center" src="./images/green_tea.jpg" alt="Card image cap">
+        <h5 class="card-title text-center">Green</h5>
+      </div>
+    
+      <div class="d-flex flex-column">
+        <img class="card-img-top text-center" src="./images/white_tea.jpg" alt="Card image cap">
+        <h5 class="card-title text-center">White</h5>
+      </div>
+    
+      <div class="d-flex flex-column">
+        <img class="card-img-top text-center" src="./images/oolong_tea.jpg" alt="Card image cap">
+        <h5 class="card-title text-center">Oolong</h5>
+      </div>
+    
+      <div class="d-flex flex-column">
+        <img class="card-img-top text-center" src="./images/pu-erh_tea.jpg" alt="Card image cap">
+        <h5 class="card-title text-center">Pu-erh</h5>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonial container-fluid d-flex flex-column align-items-center">
+
+    <h2 class="testimonial__title text-center">What our Clients say</h2>
+
+    <div class="testimonial__block row container-sm d-flex justify-content-between">
+      <div class="col-lg-2 col-md-6 d-flex flex-column testimonial__col">
+        <p class="testimonial__text">
+          "As a tea enthusiast, I have tried teas from all over the world, but this tea store truly stands out. Their teas are of the highest quality and the variety is impressive. This is definitely a tea store that every tea lover should visit."
+        </p>
+        <h5 class="card-name">Alice</h5>
+      </div>
+    
+      <div class="col-lg-2 col-md-6 d-flex flex-column testimonial__col">
+        <p class="testimonial__text">
+          "This tea store is my go-to for all my tea needs. Their selection is unbeatable and the quality of their teas is exceptional."
+        </p>
+        <h5 class="card-name">Mad-Hatter</h5>
+      </div>
+    
+      <div class="col-lg-2 col-md-6 d-flex flex-column testimonial__col">
+        <p class="testimonial__text">
+          "If you're a tea lover, you must visit this tea store. The selection is vast and the quality is outstanding. I guarantee you won't be disappointed."
+        </p>
+        <h5 class="card-name">Dormouse</h5>
+      </div>
+    
+      <div class="col-lg-2 col-md-6 d-flex flex-column testimonial__col">
+        <p class="testimonial__text">
+          "I am not a big tea drinker, but this tea store has converted me. I highly recommend this tea store to anyone looking for a high-quality tea experience."
+        </p>
+        <h5 class="card-name">March Hare</h5>
+      </div>
+    </div>
+    
+  </section>
+
+  <section class="blog container-fluid d-flex flex-column align-items-center ">
+
+    <h2 class="blog__title text-center">Our Tea Blog</h2>
+
+    <div class="blog__block container-sm d-flex flex-wrap justify-content-between">
+      <div class="blog__card d-flex">
+        <img class="blog__image" src="./images/blog_image1.jpg" alt="">
+        <div class="blog__decr d-flex flex-column justify-content-between">
+          <a href="#" class="blog-art__title">Tea Time Travels: Funny Moments from Around the World</a>
+          <p class="blog-art__auth">by Robinson Crusoe</p>
+          <a href="#" class="blog-art__link">Read</a>
+        </div>
+      </div>
+    
+      <div class="blog__card d-flex">
+        <img class="blog__image" src="./images/blog_image2.jpg" alt="">
+        <div class="blog__decr d-flex flex-column justify-content-between">
+          <a href="#" class="blog-art__title">The Role of Tea in Mental Health</a>
+          <p class="blog-art__auth">by Joker</p>
+          <a href="#" class="blog-art__link">Read</a>
+        </div>
+      </div>
+    
+      <div class="blog__card d-flex">
+        <img class="blog__image" src="./images/blog_image3.jpg" alt="">
+        <div class="blog__decr d-flex flex-column justify-content-between">
+          <a href="#" class="blog-art__title">Tea-rific Tales: Hilarious Stories from Tea Lovers</a>
+          <p class="blog-art__auth">by Casper the Friendly Ghost</p>
+          <a href="#" class="blog-art__link">Read</a>
+        </div>
+      </div>
+    
+      <div class="blog__card d-flex">
+        <img class="blog__image" src="./images/blog_image4.jpg" alt="">
+        <div class="blog__decr d-flex flex-column justify-content-between">
+          <a href="#" class="blog-art__title">Tea and Caffeine: Effects on the Brain and Behavior</a>
+          <p class="blog-art__auth">by Author Authorius</p>
+          <a href="#" class="blog-art__link">Read</a>
+        </div>
+      </div>
+    </div>
+
+    <a href="#" class="blog__btn">View all</a>
+    
+  </section>
+
+  <section class="know container-fluid d-flex">
+    <div class="know__inner container-sm d-flex flex-wrap justify-content-between">
+      <div class="know__text d-flex flex-column justify-content-center">
+        <h2 class="know__title">Want to know more?</h2>
+        <p class="know__text">
+          Join our mailing list and stay up-to-date with the latest news, promotions, and exclusive offers from our tea store. Be the first to know about new tea arrivals, seasonal blends, and special discounts. Don't miss out on the tea-rrific perks - sign up today!
+        </p>
+      </div>
+      <div class="know__form d-flex flex-column justify-content-center">
+        <div class="know-input-btn d-flex">
+          <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="name@email.com" style="background-color: #f7f2ea; font-size: 20px; color: #b8b58b; font-weight: 300; border: none; border-bottom: 1px solid #b8b58b;">
+          <button type="submit" class="btn form__btn">Join</button>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <div id="passwordHelpBlock" class="form-text">
+            We take your privacy seriously and are committed to protecting your personal information. By subscribing to our mailing list, you are consenting to receive periodic emails from us about our products, promotions, and other tea-related information.          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="prioritize container-fluid">
+    <div class="prioritize__inner container-sm d-flex flex-column justify-content-between">
+      <h2 class="prioritize__title text-center">We Prioritise</h2>
+      <div class="prioritize__block d-flex justify-content-between flex-wrap">
+
+        <div class="priortize__item d-flex flex-column align-items-center justify-content-between">
+          <h4 class="prioritize-item__title text-center">Single garden teas</h4>
+          <p class="prioritize__subtitle">Complete transparency</p>
+          <img src="./images/prioritize1.svg" alt="prioritize image" class="prioritize__image">
+        </div>
+        <div class="priortize__item d-flex flex-column align-items-center justify-content-between">
+          <h4 class="prioritize-item__title text-center">Only Loose leaf tea</h4>
+          <p class="prioritize__subtitle text-center">Best Drinking Experience</p>
+          <img src="./images/prioritize2.svg" alt="prioritize image" class="prioritize__image">
+        </div>
+        <div class="priortize__item d-flex flex-column align-items-center justify-content-between">
+          <h4 class="prioritize-item__title text-center">Customer support</h4>
+          <p class="prioritize__subtitle text-center">No bots, no automated replies</p>
+          <img src="./images/prioritize3.svg" alt="prioritize image" class="prioritize__image">
+        </div>
+        <div class="priortize__item d-flex flex-column align-items-center justify-content-between">
+          <h4 class="prioritize-item__title text-center">Fast shipping</h4>
+          <p class="prioritize__subtitle text-center">Save, Convenient, Reliable</p>
+          <img src="./images/prioritize4.svg" alt="prioritize image" class="prioritize__image">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer class="footer container-fluid" style="background-color: #f7f2ea;">
+    <div class="footer-top container-sm d-flex flex-wrap justify-content-between">
+      <div class="footer-top__left d-flex justify-content-between">
+        <div class="footer__block">
+          <h5 class="footer__title">Products</h5>
+          <ul class="footer-product__list" >
+            <li class="footer-product__item"><a href="#" class="footer-product__link">Black tea</a></li>
+            <li class="footer-product__item"><a href="#" class="footer-product__link">Green tea</a></li>
+            <li class="footer-product__item"><a href="#" class="footer-product__link">White tea</a></li>
+            <li class="footer-product__item"><a href="#" class="footer-product__link">Oolong tea</a></li>
+            <li class="footer-product__item"><a href="#" class="footer-product__link">Pu-erh tea</a></li>
+          </ul>
+        </div>
+        <div class="footer__block">
+          <h5 class="footer__title">Company</h5>
+          <ul class="footer-company__list">
+            <li class="footer-company__item"><a href="#" class="footer-company__link">About Us</a></li>
+            <li class="footer-company__item"><a href="#" class="footer-company__link">Contact Us</a></li>
+            <li class="footer-company__item"><a href="#" class="footer-company__link">Our Blog</a></li>
+            <li class="footer-company__item"><a href="#" class="footer-company__link">FAQ</a></li>
+            <li class="footer-company__item"><a href="#" class="footer-company__link">Shipping & Delivery</a></li>
+            <li class="footer-company__item"><a href="#" class="footer-company__link">Refund policy</a></li>
+            <li class="footer-company__item"><a href="#" class="footer-company__link">Terms of Service</a></li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="footer-top__right d-flex flex-wrap">
+        <div class="footer__text">
+          <p class="footer__text-phrase">
+            “Tea is a journey. It can take you to new places and open your mind to new experiences. Let every sip transport you to a world of wonder and possibility”
+          </p>
+          <p class="footer__text-auth">
+            Dragomir Teodorescu, Tealuxe owner
+          </p>
+        </div>
+        <div class="footer-contact">
+          <h5 class="footer__title">Stay In Touch</h5>
+            <p class="footer-contact__text">
+              Please feel free to contact us via the email of phone. We would be happy to hear from you!
+            </p>
+            <div class="footer-contact__logo-tel d-flex">
+              <img src="./images/logo.svg" alt="logo image">
+              <div class="footer-contact__phone-mail">
+                <a class="footer-contact__mail" href="mailto:info@tealuxe.com">info@tealuxe.com</a>
+                <a class="footer-contact__tel" href="tel:+000 080 123456">+000 080 123456</a>
+              </div>
+            </div>
+            <div class="footer-contact__social d-flex justify-content-center">
+              <img src="./images/facebook_icon.svg" alt="facebook icon">
+              <img src="./images/youtube_icon.svg" alt="youtube icon">
+              <img src="./images/instagram_icon.svg" alt="instagram icon">
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom container-sm d-flex">
+      <p class="footer-bottom__copy">&copy Tealuxe, 2023</p>
+      <div class="footer-bottom__pay">
+        <img class="footer-bottom__image" src="./images/logos_mastercard.svg" alt="image master">
+        <img class="footer-bottom__image" src="./images/logos_visa.svg" alt="image visa">
+        <img class="footer-bottom__image" src="./images/logos_google-pay.svg" alt="image google pay">
+        <img class="footer-bottom__image" src="./images/logos_paypal.svg" alt="image paypal">
+      </div>
+    </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
